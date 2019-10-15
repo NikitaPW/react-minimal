@@ -22,3 +22,5 @@ A live server should open at ```http://localhost:3000/```.
 Run the command ```npm run build``` to create the production files.
 
 The files are created in the ```build/``` folder.
+<h2>Array with squared elements</h2>
+    <div>{squareArr.map(item=>item + " ")}</div>

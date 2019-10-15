@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12b9a298-5628-4dee-8bdd-3c4aeb0df800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTitle.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +16,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S6BbY5gXWQNmMzvCFWjLlTAkJK" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -66,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571076914393</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Numbers larger then 15 and squared elements. 3 and 4 task.">
+      <created>1571081868029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571081868029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,7 +98,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Customize Headline" />
     <MESSAGE value="AppTitle and array generation. First and second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="AppTitle and array generation. First and second task" />
+    <MESSAGE value="Numbers larger then 15 and squared elements. 3 and 4 task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers larger then 15 and squared elements. 3 and 4 task." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
