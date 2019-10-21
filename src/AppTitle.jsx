@@ -111,7 +111,72 @@ function oldStudents(){
 
 }
 
+function showarray(){
+        if(document.getElementById('showarray').innerHTML==""){
+            data.forEach(item=>{item.students.forEach(i=>{document.getElementById('showStudents').innerHTML+="<li>"+i.name+"</li>"})});
+        }else{
+            document.getElementById('showStudents').innerHTML=""
+            data.forEach(item=>{item.students.forEach(i=>{document.getElementById('showStudents').innerHTML+="<li>"+i.name+"</li>"})});
 
+        }
+    }
+
+const generateArrayFromAtoB=(a,b)=>{ return Array.from(generateArray(b-a+1),item=>+ item + - 1 + +a)}
+
+class Input extends React.Component{
+      //generateArrayq=(a,b)=>{ return Array(b-a).fill().map((item,index)=>1+index)}
+      constructor(props) {
+        super(props);
+        this.state={a:0, b:0, arr:[],hide:false};
+        this.counter=0;
+        this.handleClick = this.handleClick.bind(this)
+      }
+
+     changea(ev){
+        this.setState({a: ev.target.value}, ()=>{console.log("Value of a was changed to " +this.state.a );
+        if(this.state.a < this.state.b&&this.state.a>0)
+            this.setState({arr:generateArrayFromAtoB(this.state.a,this.state.b)});
+        else {
+            this.setState({arr:[]});}
+        });
+     }
+     changeb(ev){
+        this.setState({b: ev.target.value}, ()=>{console.log("Value of a was changed to " + this.state.b);
+        if(this.state.a < this.state.b&&this.state.a>0)
+            this.setState({arr:generateArrayFromAtoB(this.state.a,this.state.b)});
+        else {
+            this.setState({arr:[]});}
+        });
+      }
+     handleClick(){
+        if(this.state.hide==true)
+            this.setState({hide:false});
+        else
+            this.setState({hide:true});
+     }
+     render(){
+     const squared = squaredElements(this.state.arr);
+     return(
+     <div>
+     {console.time("Render"+this.counter)}
+         <h1>LAB_2</h1>
+         <h2>Input 1({this.state.a}):</h2>
+         <input type="number" pattern="[0-9]*" placeholder="Only numbers" onChange={this.changea.bind(this)}/>
+         <h2>Input 2({this.state.b}):</h2>
+         <input type="number" pattern="[0-9]*" placeholder="Only numbers" onChange={this.changeb.bind(this)}/>
+         <h4>The state a is {this.state.a}</h4>
+         <h4>The state b is {this.state.b}</h4>
+         <p>{this.state.arr.map(item=>item+ " ")}</p>
+         <button onClick={this.handleClick}>Process Array</button>
+         <p >{this.state.hide ? squared.map(item=> item + " "):null}</p>
+     {console.timeEnd("Render"+this.counter++)}
+     </div>
+     );
+     }
+}
+//handle event
+//set state
+//rerender
 
 class AppTitle extends React.Component{
     render(){
@@ -120,9 +185,9 @@ class AppTitle extends React.Component{
     const arrGiven1 = [2,56,23,88,17,4];
     const arrGiven2 = [2,5,8,10];
     const squared = squaredElements(arrGiven2);
-
     return(
     <div>
+    <h1>LAB_1</h1>
     <h2>Array from 1 to n</h2>
     <div>{arr.map(item=> item + " ")}</div>
     <h2>Arrays out of 25 random numbers</h2>
@@ -136,9 +201,8 @@ class AppTitle extends React.Component{
     <button onClick={sortStudents}>Sort students</button>
     <button onClick={oldStudents}>Old students</button>
     <ul id="showStudents"></ul>
-
+    <Input />
     </div>
-
     );
     }
 }
