@@ -4,7 +4,7 @@ const generateArray = (n) => Array(n).fill().map((item,index)=>1+index)
 
 const generateArrayFromAtoB=(a,b)=> Array.from(generateArray(b-a+1),item=>+ item + - 1 + +a)
 
-const squaredElements=(arr)=> Array(arr.length).fill().map((item,index)=>arr[index]*arr[index])
+const squaredElements=(arr)=> Array(arr.length).fill().map((item,index)=>Math.sqrt(arr[index]).toFixed(2))
 
 class Input extends React.Component{
       constructor(props) {
@@ -16,9 +16,8 @@ class Input extends React.Component{
 
      changea(ev){
         this.setState({a: ev.target.value}, ()=>{console.log("Value of a was changed to " + this.state.a );
-        if(this.state.a < this.state.b&&this.state.a>0){
+        if((Number(this.state.a) < Number(this.state.b))&&this.state.a>0){
             this.setState({arr:generateArrayFromAtoB(this.state.a,this.state.b)});
-
              }
         else {
             this.setState({arr:[]});
@@ -27,7 +26,7 @@ class Input extends React.Component{
      }
      changeb(ev){
         this.setState({b: ev.target.value}, ()=>{console.log("Value of a was changed to " + this.state.b);
-        if(this.state.a < this.state.b&&this.state.a>0){
+        if((Number(this.state.a) < Number(this.state.b))&&this.state.a>0){
             this.setState({arr:generateArrayFromAtoB(this.state.a,this.state.b)});
             }
         else {
