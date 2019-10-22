@@ -8,6 +8,7 @@ class Input extends React.Component{
       constructor(props) {
         super(props);
         this.state={a:0, b:0, arr:[]};
+        this.counter=0;
       }
 
      changea(ev){
@@ -28,17 +29,16 @@ class Input extends React.Component{
       }
 
      render(){
-
      return(
      <div>
+     {console.time("Render"+this.counter)}
          <h1>LAB_2</h1>
          <h2>Input 1({this.state.a}):</h2>
          <input type="number" pattern="[0-9]*" placeholder="Only numbers" onChange={this.changea.bind(this)}/>
          <h2>Input 2({this.state.b}):</h2>
          <input type="number" pattern="[0-9]*" placeholder="Only numbers" onChange={this.changeb.bind(this)}/>
          <p>{this.state.arr.map(item=>item+ " ")}</p>
-
-
+     {console.timeEnd("Render"+this.counter++)}
      </div>
      );
      }
