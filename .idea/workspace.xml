@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b9a298-5628-4dee-8bdd-3c4aeb0df800" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTitle.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +113,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571739439951</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab_2_Third_Task. Timer addition.">
+      <created>1571739572637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571739572637</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lab_2_Fourth_Task. Button addition.">
+      <created>1571739777214</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571739777214</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -138,7 +163,9 @@
     <MESSAGE value="Lab_2_All_the_tasks" />
     <MESSAGE value="Lab_2_First_Task. Right now I'm splitting the tasks into the stages, since the las t lab was checked and it appeared to be obligatory. So all the subsequent commits will present each stage of my solution for this lab." />
     <MESSAGE value="Lab_2_Second_Task. Array generation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_2_Second_Task. Array generation." />
+    <MESSAGE value="Lab_2_Third_Task. Timer addition." />
+    <MESSAGE value="Lab_2_Fourth_Task. Button addition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_2_Fourth_Task. Button addition." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
