@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b9a298-5628-4dee-8bdd-3c4aeb0df800" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTitle.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="12b9a298-5628-4dee-8bdd-3c4aeb0df800" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571683380072</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lab_2_First_Task. Right now I'm splitting the tasks into the stages, since the las t lab was checked and it appeared to be obligatory. So all the subsequent commits will present each stage of my solution for this lab.">
+      <created>1571738584118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571738584118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +120,8 @@
     <MESSAGE value="Numbers larger then 15 and squared elements. 3 and 4 task." />
     <MESSAGE value="Buttons." />
     <MESSAGE value="Lab_2_All_the_tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_2_All_the_tasks" />
+    <MESSAGE value="Lab_2_First_Task. Right now I'm splitting the tasks into the stages, since the las t lab was checked and it appeared to be obligatory. So all the subsequent commits will present each stage of my solution for this lab." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_2_First_Task. Right now I'm splitting the tasks into the stages, since the las t lab was checked and it appeared to be obligatory. So all the subsequent commits will present each stage of my solution for this lab." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
